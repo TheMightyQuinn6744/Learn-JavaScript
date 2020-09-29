@@ -1,0 +1,21 @@
+//Create a constant variable for Kelvin  
+const kelvin = 293
+//Prints the value of kelvin 
+console.log("The temperatrue is " + kelvin + " kelvin."); 
+// Create a constant variable for Celsius 
+let celsius = 0 - 273
+//Prints the value of celsius 
+console.log("The temperature is " + celsius + " degrees celsius.");
+//Create a let variable to convert from celsius to fahrenheit 
+let fahrenheit = (celsius * (9/5) + 32);
+//Use the .floor method to round down the fahrenheit temperature result 
+fahrenheit = Math.floor(fahrenheit);
+//Log the temperature in fahrenheit 
+console.log(`The temperature is ${fahrenheit} degrees Fahrenheit.`);
+
+//Create a let variable to convert from celsius to newton 
+let Newton = (celsius * (33/100));
+//Use the .floor method to round the conversion to the nearest non-decimal number
+Newton = Math.floor(Newton);
+//Use interpolation to print the results to the console
+console.log(`The temperature is ${Newton} degrees celsius`);
