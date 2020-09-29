@@ -1,0 +1,24 @@
+//myAge is a constant variable because it will not change  
+const myAge = 30;
+//earlyYears is a let variable as it will change 
+let earlyYears = 2;
+//Use the multiplication operator to multiply value by 10.5 
+earlyYears *= 10.5;
+//console.log is called to check the result 
+console.log(earlyYears); 
+//Subrtacts two from my current age, saves result in the variable laterYears 
+laterYears = (myAge - 2);
+//console.log is called to check the result of laterYears 
+console.log(laterYears);
+//Use the multiplication assignment operator to multiply and assign in one step 
+laterYears *= 4;
+//Calculate your age in dog years 
+myAgeInDogYears = (earlyYears + laterYears);
+//print the result to the console using interpolation 
+console.log(`My age in dog years is ${myAgeInDogYears}!`); 
+//Save name to variable myName, use method .toLowerCase 
+myName = 'Quinn'.toLowerCase(); 
+//print the low case name result to console
+console.log(myName); 
+//Write a console.log statement that displays your name and age in dog years 
+console.log(`My name is ${myName}. I am ${myAge} years old in human years which is ${myAgeInDogYears} years old in dog years.`);
